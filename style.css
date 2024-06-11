@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    
+    color: blue;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.col1 input{
+    height: 5rem;
+    width: 20rem;
+    border: 1px solid blue;
+    
+   
+
+   
+}
+
+select{
+    
+    height: 5rem;
+    width: 20rem; 
+    border: 1px solid rgb(243, 158, 55);
+    
+}
+
+
+
+.col2 input{
+    
+    height: 5rem;
+    width: 20rem; 
+    border: 1px solid blue;
+
+    
+}
+
+button{
+    height: 5rem;
+    width: 30rem;
+    background-color: bisque;
+}
+
+button:hover{
+    background-color: blue;
+    border: 2px solid brown;
+    
+}
+
+.col3 input{
+    height: 5rem;
+    width: 20rem; 
+    border: 1px solid blue;
+}

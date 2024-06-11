@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>JavaScript Calculator</h1>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col1">
+        <h3>Number1</h3>
+            <input type="text" id="n1">
+        
+        </div>
+        <div class="col2">
+            <h3>Operators</h3> 
+        <select id="operators">
+            
+            
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select>
+        </div>
+        
+        <div class="col3">
+        <h3>Number2</h3> 
+            <input type="text" id="n2">
+        </div>
+        
+    </div>
+    
+    <br>
+    <br>
+    <button onclick="calc()">Submit</button>
+    <br>
+    <br>
+    <h3>Answer</h3>
+    <div class="col3">
+        <input type="text" id="result">
+    </div>
+   
+    
+</body>
+</html>
